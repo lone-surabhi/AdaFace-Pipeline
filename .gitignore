@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+data/
+pretrained/*.ckpt
+.DS_Store
+.ipynb_checkpoints/
