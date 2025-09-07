@@ -11,7 +11,7 @@ Setup
 
 3. Download agedb30 dataset, place it under AdaFace-Pipeline/ data/ agedb30/ 
 
-5. Download pretrained AdaFace checkpoint
+5. Download pretrained AdaFace checkpoint, place it under AdaFace-Pipeline/ pretrained/ 
 
 6. Run the pipeline
     4.1 python -m src.pipeline samples/img1.jpeg samples/img2 jpeg \                                                   
