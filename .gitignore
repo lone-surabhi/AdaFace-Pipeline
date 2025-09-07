@@ -1,7 +1,18 @@
+cat > .gitignore << 'EOF'
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environment
 venv/
+
+# Datasets
 data/
+
+# Pretrained weights
 pretrained/*.ckpt
+
+# OS / IDE
 .DS_Store
 .ipynb_checkpoints/
+EOF
