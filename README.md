@@ -9,11 +9,11 @@ Setup
 2. Install Dependencies 
     pip install -r requirements.txt
 
-3. Download agedb30 dataset
+3. Download agedb30 dataset, place it under AdaFace-Pipeline/ data/ agedb30/ 
 
-4. Download pretrained AdaFace checkpoint
+5. Download pretrained AdaFace checkpoint
 
-5. Run the pipeline
+6. Run the pipeline
     4.1 python -m src.pipeline samples/img1.jpeg samples/img2 jpeg \                                                   
     --arch ir_101 \
     --ckpt pretrained/adaface_ir101_ms1mv2.ckpt
@@ -25,7 +25,7 @@ Setup
 
     img1.jpeg vs img2.jpeg  cosine: 0.9936
 
-6. Evaluate agedb30 
+7. Evaluate agedb30 
     5.1 python -m src.eval_agedb \
     --data_root "/Users/surabhilone/Desktop/AdaFace-Pipeline/data/agedb30" \
     --pairs "/Users/surabhilone/Desktop/AdaFace-Pipeline/data/agedb30/agedb_30_112x112/agedb_30_ann.txt"
